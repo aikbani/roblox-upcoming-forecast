@@ -33,6 +33,11 @@ HORIZONS = [0, 12, 24, 36, 48, 60, 72]
 VEL_WINDOW_H = 48
 VEL_SHRINK = 0.5
 VEL_CAP = 0.7
+# Drift shape, settled by a practice-window grid (history to 2026-11-07,
+# scored on the 10 archive reads to 2026-11-10): v * t with shrink 0.5 scores
+# -35.56, beating a small fixed drift (best -35.66), shrink 0.25 (-35.60) and
+# shrink 0.75 (-35.58). The differences are small; the drift is not the
+# binding term, the calibrated spread is.
 CHART_SIZE = 97
 
 
